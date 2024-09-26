@@ -28,10 +28,6 @@ class Enemy extends Character {
   }
 }
 
-function executeAttack(character) {
-  character.attack();
-}
-
 const prince = new Prince("Принц", 100);
 const enemy = new Enemy("Враг", 80);
 
